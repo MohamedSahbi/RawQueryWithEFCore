@@ -17,4 +17,4 @@ I used Microsoft sample *Contoso University* and simply modified it.
 3. Now, you can set **SampleWithEF6** as StartUp Project.
 4. Run the app, then click on students in the nav bar. After that, click in user details. You will find the score in the last raw.
 
-![Student Details](http://url/to/img.png)
+![StudentDetails](https://github.com/MohamedSahbi/RawQueryWithEFCore/blob/master/StudentDetails.PNG)
