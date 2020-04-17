@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleWithEFCore", "SampleWithEFCore\SampleWithEFCore.csproj", "{953DBC32-14CE-467A-A4B0-4ED383C072A9}"
 EndProject
@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleWithEF6", "SampleWith
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF6", "EF6\EF6.csproj", "{43FB7A76-65B3-4717-A2DF-15377F1242D7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFrameworkCore", "EntityFrameworkCore", "{63C43649-DFFF-427E-B4AB-7A60E8C1962F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFrameworkCore2.1", "EntityFrameworkCore2.1", "{63C43649-DFFF-427E-B4AB-7A60E8C1962F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFramework6", "EntityFramework6", "{6732A57A-0A8D-4EAD-BEB0-13A61B67A3C6}"
 EndProject
