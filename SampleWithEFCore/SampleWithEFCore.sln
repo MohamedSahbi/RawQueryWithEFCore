@@ -16,6 +16,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFrameworkCore3.1", "EntityFrameworkCore3.1", "{E6B764AA-C0C0-4308-A505-8652E338579E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWithEFCore3.1", "SampleWithEFCore3.1\SampleWithEFCore3.1.csproj", "{A66DDC33-7020-4776-AC74-659305FEC1DA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A447FA80-62CA-49CD-9E76-931A708478A9} = {A447FA80-62CA-49CD-9E76-931A708478A9}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{8FE58C1C-299D-4572-8C78-5721B4637796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWithEFCore.DAL", "SampleWithEFCore.DAL\SampleWithEFCore.DAL.csproj", "{A447FA80-62CA-49CD-9E76-931A708478A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +46,10 @@ Global
 		{A66DDC33-7020-4776-AC74-659305FEC1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A66DDC33-7020-4776-AC74-659305FEC1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A66DDC33-7020-4776-AC74-659305FEC1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A447FA80-62CA-49CD-9E76-931A708478A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A447FA80-62CA-49CD-9E76-931A708478A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A447FA80-62CA-49CD-9E76-931A708478A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A447FA80-62CA-49CD-9E76-931A708478A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
